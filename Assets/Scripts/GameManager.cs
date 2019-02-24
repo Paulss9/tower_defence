@@ -20,14 +20,14 @@ public class GameManager : MonoBehaviour
             return;
 
         //shortcut for ending game
-        if(Input.GetKeyDown("e"))
+        /*if(Input.GetKeyDown("e"))
         {
             EndGame();
         }
         if (PlayerStats.Lives <= 0)
         {
             EndGame();
-        }
+        }*/
     }
 
     void EndGame ()
